@@ -19,12 +19,13 @@ numpy
 opencv-python
 ```
 ### 1.2 数据准备
-请前往[release发布页](https://github.com/MRWXUSP/hnu_deep_study/releases)下载分卷数据集，解压后应该有如下的目录结构：
+请前往[release发布页](https://github.com/MRWXUSP/hnu_deep_study/releases)下载分卷数据集`hnu_deep_study_part1-3.rar`与标签数据集`annotations.rar`，全部解压后应该有如下的目录结构：
 ```
 |-- face_trainset/  提取狗头部特征的训练集
 |-- trainset/       原始训练集
 |-- valset/     原始验证集
 |-- weight/     预训练模型权重
+|-- annotations/  训练集标签
 ```
 将他们放在项目根目录下。
 
@@ -38,6 +39,7 @@ opencv-python
     |-- weight/     预训练模型权重
         |-- resnet18/
             |-- model.safetensors
+    |-- annotations/  训练集标签
     |-- train.py       训练脚本
     |-- dataset.py    数据集脚本
     |-- model.py      模型脚本
