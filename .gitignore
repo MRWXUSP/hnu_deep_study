@@ -1,0 +1,17 @@
+__pycache__
+.conda
+annotations
+face_trainset
+trainset
+valset
+face.py
+dog_face.xml
+saved_model_age
+evalinfo1.txt
+traininfo1.txt
+test.py
+weights
+hnu_deep_study_useful.zip
+hnu_deep_study.part1.rar
+hnu_deep_study.part2.rar
+hnu_deep_study.part3.rar
